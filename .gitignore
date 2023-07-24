@@ -1,0 +1,8 @@
+nvim/plugin/packer_compiled.lua
+nvim/cache/
+**/.DS_Store
+.vscode/
+.idea/
+logs/
+log/
+.luarc.json
