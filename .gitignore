@@ -1,8 +1,15 @@
 nvim/plugin/packer_compiled.lua
 nvim/cache/
+
 **/.DS_Store
 .vscode/
 .idea/
-logs/
-log/
 .luarc.json
+
+# other configurations but not included in this dotfiles repo
+clash/
+configstore/
+fish/
+github-copilot/
+iterm2/
+storage/
