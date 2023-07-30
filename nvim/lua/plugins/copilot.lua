@@ -7,6 +7,8 @@ return {
       vim.g.copilot_no_tab_map = true
       vim.g.copilot_filetypes = {
         ["*"] = false,
+        ["css"] = true,
+        ["html"] = true,
         ["javascript"] = true,
         ["javascriptreact"] = true,
         ["jsx"] = true,

@@ -1,4 +1,4 @@
-local map = require("../util/utils").map
+local map = require("util/utils").map
 
 -- select all
 map("n", "<C-a>", "gg<S-v>G", { desc = "Select all", silent = true, noremap = true })
