@@ -1,6 +1,7 @@
 return {
   {
     "nvimdev/lspsaga.nvim",
+    enabled = true,
     event = "LspAttach",
     opts = {
       ui = {
