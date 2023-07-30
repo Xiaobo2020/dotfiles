@@ -15,7 +15,7 @@ return {
         ["typescript"] = true,
         ["typescriptreact"] = true,
         ["tsx"] = true,
-        ["lua"] = false,
+        ["lua"] = true,
       }
       vim.api.nvim_set_keymap("i", "<C-g>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
       vim.api.nvim_set_keymap("i", "<C-]>", "copilot#Next()", { silent = true, expr = true })
