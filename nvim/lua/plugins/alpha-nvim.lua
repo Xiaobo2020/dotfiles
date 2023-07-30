@@ -4,16 +4,7 @@ return {
     "goolord/alpha-nvim",
     opts = function()
       local dashboard = require("alpha.themes.dashboard")
-      local logo_lazy = [[
-           ██╗      █████╗ ███████╗██╗   ██╗██╗   ██╗██╗███╗   ███╗          Z
-           ██║     ██╔══██╗╚══███╔╝╚██╗ ██╔╝██║   ██║██║████╗ ████║      Z    
-           ██║     ███████║  ███╔╝  ╚████╔╝ ██║   ██║██║██╔████╔██║   z       
-           ██║     ██╔══██║ ███╔╝    ╚██╔╝  ╚██╗ ██╔╝██║██║╚██╔╝██║ z         
-           ███████╗██║  ██║███████╗   ██║    ╚████╔╝ ██║██║ ╚═╝ ██║
-           ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝     ╚═══╝  ╚═╝╚═╝     ╚═╝
-      ]]
-
-      local logo_sunday = [[
+      local logo = [[
         ███████╗██╗   ██╗███╗   ██╗██████╗  █████╗ ██╗   ██╗         Z 
         ██╔════╝██║   ██║████╗  ██║██╔══██╗██╔══██╗╚██╗ ██╔╝      Z    
         ███████╗██║   ██║██╔██╗ ██║██║  ██║███████║ ╚████╔╝    z       
@@ -22,7 +13,6 @@ return {
         ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝   ╚═╝   
       ]]
 
-      local logo = logo_sunday
       dashboard.section.header.val = vim.split(logo, "\n")
       dashboard.section.buttons.val = {
         dashboard.button("f", " " .. " Find file", ":Telescope find_files <CR>"),
