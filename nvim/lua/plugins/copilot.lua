@@ -4,6 +4,9 @@ return {
   {
     "github/copilot.vim",
     config = function()
+      -- lua
+      vim.g.copilot_node_command = "~/.local/share/nvm/v16.14.0/bin/node"
+
       vim.g.copilot_no_tab_map = true
       vim.g.copilot_filetypes = {
         ["*"] = false,
