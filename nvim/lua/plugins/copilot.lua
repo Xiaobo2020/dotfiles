@@ -11,6 +11,7 @@ return {
       vim.g.copilot_filetypes = {
         ["*"] = false,
         ["css"] = true,
+        ["scss"] = true,
         ["html"] = true,
         ["javascript"] = true,
         ["javascriptreact"] = true,
@@ -19,6 +20,7 @@ return {
         ["typescriptreact"] = true,
         ["tsx"] = true,
         ["lua"] = true,
+        ["md"] = true,
       }
       vim.api.nvim_set_keymap("i", "<C-g>", 'copilot#Accept("<CR>")', { silent = true, expr = true })
       vim.api.nvim_set_keymap("i", "<C-]>", "copilot#Next()", { silent = true, expr = true })
