@@ -21,6 +21,7 @@ return {
             "markdown",
             "md",
             "scss",
+            "css",
           },
         })
       )
