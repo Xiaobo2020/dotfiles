@@ -3,9 +3,9 @@ return {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "nord",
-      -- colorscheme = "onenord",
+      colorscheme = "onenord",
       -- colorscheme = "nordfox",
-      colorscheme = "everforest",
+      -- colorscheme = "everforest",
       -- colorscheme = "catppuccin",
     },
   },
