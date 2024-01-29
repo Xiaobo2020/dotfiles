@@ -2,12 +2,22 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      -- colorscheme = "nord",
-      colorscheme = "onenord",
-      -- colorscheme = "nordfox",
+      -- colorscheme = "onenord",
       -- colorscheme = "everforest",
+
+      -- colorscheme = "nordic",
+      colorscheme = "nord",
+      -- colorscheme = "nordfox",
       -- colorscheme = "catppuccin",
     },
+  },
+
+  -- nordic
+  {
+    "AlexvZyl/nordic.nvim",
+    name = "nordic",
+    enabled = true,
+    lazy = true,
   },
 
   -- nord
