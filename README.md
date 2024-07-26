@@ -6,6 +6,26 @@
 
 ## Fish Shell
 
+### Alias
+
+1. **创建Alias文件**： `~/.config/fish/aliases.fish` 执行以下命令创建文件并写如对应内容：
+
+```bash
+echo -e "alias vim nvim\nalias t 'tmux new -s'\nalias gc 'git checkout . && git clean -df'" >> ~/.config/fish/aliases.fish
+```
+
+2. **配置环境变量**：对于`fish shell`，你需要将`aliases.fish`脚本添加到`fish`的配置文件`~/.config/fish/config.fish`中。如果文件不存在，你可以创建它。
+
+```bash
+echo -e '\n. ~/.config/fish/aliases.fish\n' >> ~/.config/fish/config.fish
+```
+
+3. **应用更改**：为了使更改生效，你可以重启`fish shell`或者执行以下命令来重新加载配置文件：
+
+```bash
+source ~/.config/fish/config.fish
+```
+
 ### Python
 
 如果你在Mac上使用`fish shell`，配置`pyenv`的步骤略有不同。以下是针对`fish shell`的配置步骤：
