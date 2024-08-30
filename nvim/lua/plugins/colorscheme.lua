@@ -2,7 +2,8 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nordfox",
+      colorscheme = "rose-pine",
+      -- colorscheme = "nordfox",
       -- colorscheme = "everforest",
 
       -- colorscheme = "onenord",
@@ -10,6 +11,14 @@ return {
       -- colorscheme = "nord",
       -- colorscheme = "catppuccin",
     },
+  },
+
+  -- rose-pine
+  {
+    "rose-pine/neovim",
+    name = "rose-pine",
+    enabled = true,
+    lazy = true,
   },
 
   -- nordic
