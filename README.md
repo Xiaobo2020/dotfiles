@@ -1,9 +1,5 @@
 # Dotfiles
 
-## TMUX
-
-## NVIM
-
 ## Fish Shell
 
 ### Alias
@@ -11,7 +7,7 @@
 1. **创建Alias文件**： `~/.config/fish/aliases.fish` 执行以下命令创建文件并写如对应内容：
 
 ```bash
-echo -e "alias vim nvim\nalias t 'tmux new -s'\nalias gc 'git checkout . && git clean -df'" >> ~/.config/fish/aliases.fish
+echo -e "alias vim nvim\nalias nn 'nvm use && nrm use npm'\nalias t 'tmux new -s'\nalias gc 'git checkout . && git clean -df'" >> ~/.config/fish/aliases.fish
 ```
 
 2. **配置环境变量**：对于`fish shell`，你需要将`aliases.fish`脚本添加到`fish`的配置文件`~/.config/fish/config.fish`中。如果文件不存在，你可以创建它。
